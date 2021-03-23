@@ -44,8 +44,6 @@ var strArray3 = ["hi", "bye", "pahone", "pahan", "pan", "pharaoh", "pharmer"];
 
 // Function that uses the .startsWith function to check each string in the input Array to see if it starts with "ph"
 // if it does, return the string that matched, and stop running.
-// if it doesnt, console log that it does not begin with ph.
-// not ussing return for else if, or else blocks as that would prevent it from running again.
 function getFirstPh(ary) {
   for (i = 0; i < ary.length; i++) {
     if (ary[i].startsWith("ph")) {
