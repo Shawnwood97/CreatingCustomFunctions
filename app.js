@@ -50,10 +50,6 @@ function getFirstPh(ary) {
   for (i = 0; i < ary.length; i++) {
     if (ary[i].startsWith("ph")) {
       return ary[i];
-    } else if (!ary[i].startsWith("ph")) {
-      console.log(`${ary[i]} does not begin with ph`);
-    } else {
-      console.log("SOMETHING IS WRONGGG");
     }
   }
 }
